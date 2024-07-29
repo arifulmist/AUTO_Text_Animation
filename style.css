@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Protest+Guerrilla&display=swap');
+
+
+
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    height:150vh;
+    
+    align-items: center;
+    background-color: salmon;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.pic{
+    background: url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg");
+    
+    width: 250px;
+  height: 250px;
+  position: absolute;
+  border-radius: 20px;
+  pointer-events: none;
+  background-size: cover;
+  left: 45%;
+  top: 30%;
+}
